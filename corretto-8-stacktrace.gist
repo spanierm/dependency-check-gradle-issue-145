@@ -1,0 +1,11 @@
+executing gradlew instead of gradle
+
+> Task :dependencyCheckAnalyze
+Verifying dependencies for project demo
+Checking for updates and analyzing dependencies for vulnerabilities
+A new version of dependency-check is available. Consider updating to version 5.2.2.
+Generating report for project demo
+Found 0 vulnerabilities in project demo
+
+BUILD SUCCESSFUL in 3m 26s
+1 actionable task: 1 executed
