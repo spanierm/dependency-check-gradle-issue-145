@@ -1,0 +1,10 @@
+executing gradlew instead of gradle
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Task :dependencyCheckAnalyze
+Verifying dependencies for project demo
+Checking for updates and analyzing dependencies for vulnerabilities
+A new version of dependency-check is available. Consider updating to version 5.2.2.
+
+> Task :dependencyCheckAnalyze FAILED
+1 actionable task: 1 executed
