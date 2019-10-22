@@ -53,3 +53,20 @@ OpenJDK 64-Bit Server VM Zulu11.33+15-CA (build 11.0.4+11-LTS, mixed mode)
 ```
 
 finished with status code `1` (`gradlew`).
+
+## Zulu 13
+
+```bash
+./gradlew dependencyCheckAnalyze --stacktrace | tee zulu-13-stacktrace.gist
+./gradlew dependencyCheckAnalyze --debug | tee zulu-13-debug.gist
+```
+
+started with
+
+```text
+openjdk 13.0.1 2019-10-15
+OpenJDK Runtime Environment Zulu13.28+11-CA (build 13.0.1+10-MTS)
+OpenJDK 64-Bit Server VM Zulu13.28+11-CA (build 13.0.1+10-MTS, mixed mode, sharing)
+```
+
+finished with status code `1` (`gradlew`).
