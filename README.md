@@ -3,7 +3,6 @@
 All builds were performed with a clean environment, i.e. after a `rm -rf build owasp-dependency-check/database`.
 
 ## Corretto 8
-```
 
 ```bash
 ./gradlew dependencyCheckAnalyze --stacktrace | tee corretto-8-stacktrace.gist
